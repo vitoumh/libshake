@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.contenedor{
+  	width: 965px;
+		background: white;
+		margin: auto;
+		border-radius: 25px;
+}
+body{
+ margin:0;
+ background: url(http://i.imgur.com/k2nwamW.gif);
+}
+header{
+  font-family: 'lobster';
+  text-align: center;
+  font-size:x-large;
+  letter-spacing: 4px;
+  color: #16A085;
+  text-shadow: 2px 2px black;
+  padding-top:15px;
+}
+
+.barra1{
+  margin:0;
+}
+nav{
+	background: #16A085;
+  font-weight:bold;
+}
+.menu{
+	text-align: center;
+	margin: 0;
+}
+.menu li{
+	display: inline-block
+}
+.menu a{
+  font-family: 'Quicksand';
+	padding: 45px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+.menu a:hover{
+	background: #1ABC9C;
+}
+main{
+    font-family: 'Quicksand';
+    font-size:1.5em;
+    padding:25px;
+    text-align:justify;
+
+}
+
+.fotos li{
+	display: inline-block;
+}
+
+article{
+}
+.titulo-articulo a{
+  font-size:70%;
+  color:gray;
+	text-decoration: none;
+}
+.video{
+  width:450px;
+  height:300px;
+  margin:auto;
+}
+.iconos{
+	text-align: center;
+	margin: 0;
+}
+.iconos li{
+	display: inline-block
+}
+footer{
+  text-align:right;
+  padding:15px;
+  
+}
